@@ -1,0 +1,22 @@
+Parameters cL and cR
+
+sigma(cL,cR,mT) = [ cL^2 + cR^2 - 5.2*cL^2*cR^2*mtop/(mtop+mT) ]*sigma_13TeV_fb_B13(mT)  
+
+where sigma_13TeV_fb_B13 follow the table bellow:
+
+M_GeV sigma_13TeV_fb_B13 
+600 893 
+700 613 
+800 431 
+900 308 
+1000 223 
+1100 164 
+1200 122 
+1300 90.5
+1400 68.2
+1500 51.6
+1600 39.3
+1700 30.2
+1800 23.2
+1900 17.9
+2000 13.9
