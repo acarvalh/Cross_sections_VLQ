@@ -1,1 +1,0 @@
-For Double production cross sections please refer to https://twiki.cern.ch/twiki/bin/viewauth/CMS/B2GMonteCarlo
