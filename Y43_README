@@ -1,2 +1,15 @@
-To be done
-ble
+Parameter: cL, cR
+100% decay to Wb
+
+The cross sections and decay width here are for cL = 1. 
+The production cross sections are different depending of the associated quark.
+To use an alternative parameter use:
+
+GamTot[c'] = GamWt_quad*(c'^2) 
+
+Sigma[c']= Sigma_quad*(c'^2)
+
+Where c = cL OR c = cR 
+
+The parameter cL should be O[1]-O[10].
+To use cL < 2 assures narrow width (GamTot[cL']/MT <~ 10%) 
