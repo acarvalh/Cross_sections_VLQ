@@ -1,1 +1,13 @@
-To be done (missing to calculate production trougth BZb)
+(missing to calculate production trougth BZb)
+Parameter: cL (only left-handed)
+
+The cross sections and decay width here are for cL = 1. 
+The production cross sections are different depending of the associated quark.
+To use an alternative parameter use:
+
+GamTot[cL'](GeV) = GamTot(GeV)*cL'^2
+
+Sigma[cL'](pp>TVQ_b)(fb)= Sigma(pp>TVQ_b)(fb)*cL'^2
+Sigma[cL'](pp>TVQ_t)(fb)= Sigma(pp>TVQ_t)(fb)*cL'^2
+
+The parameter cL should be O[1]-O[10].
